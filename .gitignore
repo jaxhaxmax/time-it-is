@@ -1,0 +1,37 @@
+# raw data
+data/
+*.parquet
+*.h5
+*.hdf5
+
+# model weights, checkpoint lives on Kaggle
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+venv/
+.venv/
+
+# jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# os
+.DS_Store
+Thumbs.db
+
+# ide
+.vscode/
+.idea/
+*.swp
