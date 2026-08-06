@@ -1,0 +1,846 @@
+{
+ "summary": {
+  "n_buildings": 104,
+  "n_catastrophes": 54,
+  "n_safe": 50,
+  "cat_fullparam_median": 3.4263,
+  "cat_headonly_median": 0.2984,
+  "cat_last30_median": 0.0678,
+  "cat_rescued_count": 50,
+  "cat_rescued_frac": 0.926
+ },
+ "buildings": {
+  "Bear_education_Katy": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1070294724258923,
+   "nmae_last_30": 0.1194646170279598,
+   "nmae_head_only": 0.0652,
+   "poison_full": -0.0124,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bear_education_Marsha": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0877402241410141,
+   "nmae_last_30": 0.1045789079784132,
+   "nmae_head_only": 0.1081,
+   "poison_full": -0.0168,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bear_education_Owen": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1566564075227615,
+   "nmae_last_30": 0.1797187433929607,
+   "nmae_head_only": 0.1318,
+   "poison_full": -0.0231,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bear_education_Patricia": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0522833357194685,
+   "nmae_last_30": 0.0591729797435456,
+   "nmae_head_only": 0.0344,
+   "poison_full": -0.0069,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bear_education_Santos": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.7500088504885004,
+   "nmae_last_30": 0.5594191545587764,
+   "nmae_head_only": 0.4856,
+   "poison_full": 0.1906,
+   "verdict": "STILL DETONATES (head-only doesn't help)"
+  },
+  "Bear_lodging_Erick": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.086750622369752,
+   "nmae_last_30": 0.1505944857372983,
+   "nmae_head_only": 0.1212,
+   "poison_full": -0.0638,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bear_science_Alison": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0246582818873457,
+   "nmae_last_30": 0.0238632768074833,
+   "nmae_head_only": 0.031,
+   "poison_full": 0.0008,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bobcat_office_Kassandra": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0906427796926849,
+   "nmae_last_30": 0.1271629735409712,
+   "nmae_head_only": 0.1527,
+   "poison_full": -0.0365,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bull_assembly_Freddie": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.5361097669522682,
+   "nmae_last_30": 0.3834221882357757,
+   "nmae_head_only": 0.2029,
+   "poison_full": 0.1527,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Bull_education_Clarita": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.3297763658263485,
+   "nmae_last_30": 0.1238028992737704,
+   "nmae_head_only": 0.0996,
+   "poison_full": 0.206,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Bull_education_Dottie": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.8232471956730566,
+   "nmae_last_30": 0.1942419143654568,
+   "nmae_head_only": 0.1657,
+   "poison_full": 0.629,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Bull_education_Olive": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2751703225094379,
+   "nmae_last_30": 0.2710686042596988,
+   "nmae_head_only": 0.187,
+   "poison_full": 0.0041,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Bull_lodging_Leonard": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1636634159021421,
+   "nmae_last_30": 0.180142353697647,
+   "nmae_head_only": 0.098,
+   "poison_full": -0.0165,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Cockatoo_education_Sheryl": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0351432095610871,
+   "nmae_last_30": 0.0382286834199117,
+   "nmae_head_only": 0.0632,
+   "poison_full": -0.0031,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Cockatoo_lodging_Tesha": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1188532295700924,
+   "nmae_last_30": 0.1321887369967445,
+   "nmae_head_only": 0.1105,
+   "poison_full": -0.0133,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Cockatoo_office_Gail": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1416356803908642,
+   "nmae_last_30": 0.1642550017336145,
+   "nmae_head_only": 0.2293,
+   "poison_full": -0.0226,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Eagle_education_Eileen": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.1827701001592483,
+   "nmae_last_30": 0.9646401512531684,
+   "nmae_head_only": 0.1887,
+   "poison_full": 0.2181,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Eagle_education_Maragret": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1797343763487472,
+   "nmae_last_30": 0.1783126933802603,
+   "nmae_head_only": 0.205,
+   "poison_full": 0.0014,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Eagle_education_Shanna": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1283110995103058,
+   "nmae_last_30": 0.1509869627546266,
+   "nmae_head_only": 0.1632,
+   "poison_full": -0.0227,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Eagle_health_Gregoria": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.8380373620471299,
+   "nmae_last_30": 0.551138488083853,
+   "nmae_head_only": 0.119,
+   "poison_full": 0.2869,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Eagle_health_Margo": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.366118902931238,
+   "nmae_last_30": 1.1605548177139984,
+   "nmae_head_only": 0.0764,
+   "poison_full": 0.2056,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Eagle_office_Marisela": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.97584270637783,
+   "nmae_last_30": 0.8662500870537659,
+   "nmae_head_only": 0.1362,
+   "poison_full": 0.1096,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Eagle_office_Nereida": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 1.0913423256873065,
+   "nmae_last_30": 1.068585838141597,
+   "nmae_head_only": 0.1158,
+   "poison_full": 0.0228,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Eagle_office_Patrice": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1206150561119952,
+   "nmae_last_30": 0.1598298535060562,
+   "nmae_head_only": 0.1678,
+   "poison_full": -0.0392,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Eagle_office_Tia": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.1884363896062402,
+   "nmae_last_30": 0.9643813031768128,
+   "nmae_head_only": 0.1772,
+   "poison_full": 0.2241,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Fox_assembly_Cathy": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.6735226784279672,
+   "nmae_last_30": 0.546383844676966,
+   "nmae_head_only": 0.0698,
+   "poison_full": 0.1271,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Fox_assembly_Terrell": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1737541747063944,
+   "nmae_last_30": 0.2989638389795399,
+   "nmae_head_only": 0.184,
+   "poison_full": -0.1252,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Fox_education_Louie": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1305928739519753,
+   "nmae_last_30": 0.1774918728825553,
+   "nmae_head_only": 0.1122,
+   "poison_full": -0.0469,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Fox_education_Tamika": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0687674323830331,
+   "nmae_last_30": 0.0721575844748121,
+   "nmae_head_only": 0.1018,
+   "poison_full": -0.0034,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Fox_lodging_Winifred": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0491805197645626,
+   "nmae_last_30": 0.0587522394646643,
+   "nmae_head_only": 0.0542,
+   "poison_full": -0.0096,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Fox_religion_Maurice": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.5396855071422053,
+   "nmae_last_30": 0.5960373989902235,
+   "nmae_head_only": 0.3679,
+   "poison_full": -0.0564,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Fox_warehouse_Lorretta": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.8287956201285628,
+   "nmae_last_30": 0.3657474979862844,
+   "nmae_head_only": 0.3141,
+   "poison_full": 0.463,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Gator_assembly_Regina": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.124533888275583,
+   "nmae_last_30": 0.1681353597483612,
+   "nmae_head_only": 0.1084,
+   "poison_full": -0.0436,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Gator_other_Reginald": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2182016855423928,
+   "nmae_last_30": 0.2613208921915858,
+   "nmae_head_only": 0.1802,
+   "poison_full": -0.0431,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Gator_public_Janna": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.4149352252461206,
+   "nmae_last_30": 0.2262828425924093,
+   "nmae_head_only": 0.0733,
+   "poison_full": 0.1887,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Gator_public_Kenny": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.3895243757756621,
+   "nmae_last_30": 0.406542138470673,
+   "nmae_head_only": 0.1933,
+   "poison_full": -0.017,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Gator_public_Nettie": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.6192252243669936,
+   "nmae_last_30": 0.470772607889502,
+   "nmae_head_only": 0.1125,
+   "poison_full": 0.1485,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Hog_education_Cathleen": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0518646404143284,
+   "nmae_last_30": 0.055488211817217,
+   "nmae_head_only": 0.0645,
+   "poison_full": -0.0036,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Hog_office_Sung": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0623796105983568,
+   "nmae_last_30": 0.0783667019290465,
+   "nmae_head_only": 0.0617,
+   "poison_full": -0.016,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Hog_warehouse_Rosanna": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1214131520415521,
+   "nmae_last_30": 0.1129378309217989,
+   "nmae_head_only": 0.0521,
+   "poison_full": 0.0085,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Lamb_assembly_Cesar": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.3631903104483268,
+   "nmae_last_30": 2.571074076330726,
+   "nmae_head_only": 0.1885,
+   "poison_full": -2.2079,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Lamb_assembly_Dorathy": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.559937631504403,
+   "nmae_last_30": 0.0226164780971076,
+   "nmae_head_only": 0.2475,
+   "poison_full": 2.5373,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_assembly_Isa": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 21.860253425780677,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.2918,
+   "poison_full": 21.7245,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_assembly_Kurt": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 24.09478848474099,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.3539,
+   "poison_full": 23.9591,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_assembly_Nicole": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.083172811486292,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.2809,
+   "poison_full": 7.0153,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_assembly_Steven": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.188997867051511,
+   "nmae_last_30": 0.0271396725438535,
+   "nmae_head_only": 0.1837,
+   "poison_full": 3.1619,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_assembly_Tawana": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.6116990034740106,
+   "nmae_last_30": 0.0271396725438535,
+   "nmae_head_only": 0.3282,
+   "poison_full": 0.5846,
+   "verdict": "STILL DETONATES (head-only doesn't help)"
+  },
+  "Lamb_assembly_Theresa": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.499584268463271,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.1583,
+   "poison_full": 5.4317,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Aldo": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 6.89299020088462,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.4809,
+   "poison_full": 6.7573,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Bettye": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.807509392577534,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.299,
+   "poison_full": 7.7397,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Chet": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.937249333311532,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.3238,
+   "poison_full": 5.8015,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Debby": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.861601566629057,
+   "nmae_last_30": 1.5745995440520346,
+   "nmae_head_only": 0.5477,
+   "poison_full": 0.287,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Ellen": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.526998634695904,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3149,
+   "poison_full": 3.4818,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Faith": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2700276936632054,
+   "nmae_last_30": 0.4682645023578753,
+   "nmae_head_only": 0.3204,
+   "poison_full": -0.1982,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Lamb_education_Freddy": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 22.374533826019604,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.3182,
+   "poison_full": 22.2388,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Garry": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.6115894777629167,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3784,
+   "poison_full": 3.5664,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Harold": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.626410605450577,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3283,
+   "poison_full": 7.5812,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Hillary": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.101590787589278,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.3816,
+   "poison_full": 5.0337,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Hubert": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.2959930407949656,
+   "nmae_last_30": 0.0029499639648998,
+   "nmae_head_only": 0.3216,
+   "poison_full": 0.293,
+   "verdict": "STILL DETONATES (head-only doesn't help)"
+  },
+  "Lamb_education_Ira": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 4.662777505976717,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3424,
+   "poison_full": 4.6175,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Jane": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.10534625593573,
+   "nmae_last_30": 0.5585223919759436,
+   "nmae_head_only": 0.2977,
+   "poison_full": 4.5468,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Kasha": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.3255450151676387,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.4541,
+   "poison_full": 3.2577,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Kayla": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 13.09795418536911,
+   "nmae_last_30": 1.4425426623978028,
+   "nmae_head_only": 0.278,
+   "poison_full": 11.6554,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Larissa": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.9997104744931375,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.2855,
+   "poison_full": 3.9545,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Lemuel": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.975181488281425,
+   "nmae_last_30": 0.0169636643501386,
+   "nmae_head_only": 0.317,
+   "poison_full": 2.9582,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Leopoldo": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.263622306969612,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3975,
+   "poison_full": 2.2184,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Marty": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.259497822611592,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.446,
+   "poison_full": 7.1238,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Mckenzie": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.3504242929250392,
+   "nmae_last_30": 0.4421285775388383,
+   "nmae_head_only": 0.2916,
+   "poison_full": -0.0917,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Lamb_education_Nathan": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.835499653883744,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.411,
+   "poison_full": 3.7903,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Nichol": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.88715362533306,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.4603,
+   "poison_full": 7.7514,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Patsy": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.630727586724485,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.266,
+   "poison_full": 5.5855,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Phil": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 7.510450972806816,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.2991,
+   "poison_full": 7.4426,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Ruben": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.851413118976376,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3132,
+   "poison_full": 2.8062,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Stefan": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.5452456759246892,
+   "nmae_last_30": 3.4391896430410984,
+   "nmae_head_only": 0.3477,
+   "poison_full": -2.8939,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Lamb_education_Wanda": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.6020234502147004,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.3675,
+   "poison_full": 1.5568,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_education_Wilbert": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.20634006483144,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.5551,
+   "poison_full": 2.1611,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_food_Sylvia": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 2.5417852255543973,
+   "nmae_last_30": 0.0041120451489331,
+   "nmae_head_only": 0.0824,
+   "poison_full": 2.5377,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_industrial_Venessa": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 5.815202846657485,
+   "nmae_last_30": 0.0113077765110776,
+   "nmae_head_only": 0.0581,
+   "poison_full": 5.8039,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_industrial_Willard": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 18.2572853625752,
+   "nmae_last_30": 0.1357043246292354,
+   "nmae_head_only": 0.083,
+   "poison_full": 18.1216,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_lodging_Harley": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 3.635472690313084,
+   "nmae_last_30": 0.0339247188724888,
+   "nmae_head_only": 0.4029,
+   "poison_full": 3.6015,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_office_Callie": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 8.1188671392433,
+   "nmae_last_30": 0.0193872498847278,
+   "nmae_head_only": 0.2051,
+   "poison_full": 8.0995,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_office_Jo": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 8.619435734037928,
+   "nmae_last_30": 0.0678483952797251,
+   "nmae_head_only": 0.446,
+   "poison_full": 8.5516,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_office_Stefani": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 0.1488637668080628,
+   "nmae_last_30": 0.0054283159164091,
+   "nmae_head_only": 0.1996,
+   "poison_full": 0.1434,
+   "verdict": "STILL DETONATES (head-only doesn't help)"
+  },
+  "Lamb_office_William": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 4.748328462178405,
+   "nmae_last_30": 0.0452365127405047,
+   "nmae_head_only": 0.2137,
+   "poison_full": 4.7031,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Lamb_other_Minerva": {
+   "is_catastrophe": "True",
+   "nmae_full_param": 1.1882533959158337,
+   "nmae_last_30": 0.7219818801062905,
+   "nmae_head_only": 0.2336,
+   "poison_full": 0.4663,
+   "verdict": "RESCUED (head-only avoids catastrophe)"
+  },
+  "Moose_education_Marlon": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1144210850495802,
+   "nmae_last_30": 0.1326481824708445,
+   "nmae_head_only": 0.0562,
+   "poison_full": -0.0182,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_education_Tina": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.431008443502493,
+   "nmae_last_30": 0.4084276411943853,
+   "nmae_head_only": 0.3422,
+   "poison_full": 0.0226,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_lodging_Jana": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2700900720805433,
+   "nmae_last_30": 0.2177251857879071,
+   "nmae_head_only": 0.1942,
+   "poison_full": 0.0524,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_lodging_Myrtle": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.129385461344486,
+   "nmae_last_30": 0.1512262587952169,
+   "nmae_head_only": 0.1301,
+   "poison_full": -0.0218,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_office_Catherine": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1690893444532789,
+   "nmae_last_30": 0.2495159719115807,
+   "nmae_head_only": 0.1397,
+   "poison_full": -0.0804,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_office_Graham": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1403470885279312,
+   "nmae_last_30": 0.2231354174801422,
+   "nmae_head_only": 0.0967,
+   "poison_full": -0.0828,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_office_Hannah": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.3578184303733847,
+   "nmae_last_30": 0.3834929948821128,
+   "nmae_head_only": 0.3465,
+   "poison_full": -0.0257,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_office_Jesus": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.157935881780202,
+   "nmae_last_30": 0.1930279980088392,
+   "nmae_head_only": 0.1474,
+   "poison_full": -0.0351,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Panther_retail_Romeo": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.046887210381669,
+   "nmae_last_30": 0.0814954709794224,
+   "nmae_head_only": 0.0645,
+   "poison_full": -0.0346,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Peacock_education_Yolanda": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0609780183753915,
+   "nmae_last_30": 0.0774282782556902,
+   "nmae_head_only": 0.0647,
+   "poison_full": -0.0165,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_assembly_Horace": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1659587109627231,
+   "nmae_last_30": 0.2430649875299704,
+   "nmae_head_only": 0.114,
+   "poison_full": -0.0771,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_assembly_Suzanne": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0970206550364764,
+   "nmae_last_30": 0.285581289754214,
+   "nmae_head_only": 0.1332,
+   "poison_full": -0.1886,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_health_Mildred": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2228622859212696,
+   "nmae_last_30": 0.2145062818127395,
+   "nmae_head_only": 0.2158,
+   "poison_full": 0.0084,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_office_Jeannie": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1605062570092881,
+   "nmae_last_30": 0.1958683735539615,
+   "nmae_head_only": 0.196,
+   "poison_full": -0.0354,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_office_Jessica": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0709781587064374,
+   "nmae_last_30": 0.0829341310286698,
+   "nmae_head_only": 0.1383,
+   "poison_full": -0.012,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_public_Sharron": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0477870429522656,
+   "nmae_last_30": 0.0728064624278234,
+   "nmae_head_only": 0.0415,
+   "poison_full": -0.025,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_retail_Jeffrey": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.2165949582755212,
+   "nmae_last_30": 0.2470737860940847,
+   "nmae_head_only": 0.1336,
+   "poison_full": -0.0305,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Rat_warehouse_Doretta": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.0627371596762395,
+   "nmae_last_30": 0.0770104808399931,
+   "nmae_head_only": 0.0698,
+   "poison_full": -0.0143,
+   "verdict": "safe building (no catastrophe either way)"
+  },
+  "Robin_office_Adolph": {
+   "is_catastrophe": "False",
+   "nmae_full_param": 0.1638306140189902,
+   "nmae_last_30": 0.2068816033853598,
+   "nmae_head_only": 0.1108,
+   "poison_full": -0.0431,
+   "verdict": "safe building (no catastrophe either way)"
+  }
+ }
+}
