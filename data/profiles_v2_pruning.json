@@ -1,0 +1,25 @@
+{
+ "n_features": 35,
+ "high_corr_pairs": [
+  {
+   "a": "cv",
+   "b": "annual_amplitude",
+   "abs_r": 0.908
+  },
+  {
+   "a": "seasonal_strength_24",
+   "b": "interdaily_stability",
+   "abs_r": 0.915
+  },
+  {
+   "a": "lumpiness",
+   "b": "kurtosis",
+   "abs_r": 0.938
+  },
+  {
+   "a": "skewness",
+   "b": "kurtosis",
+   "abs_r": 0.94
+  }
+ ]
+}
