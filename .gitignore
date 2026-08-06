@@ -1,5 +1,4 @@
 # raw data
-data/
 *.parquet
 *.h5
 *.hdf5
